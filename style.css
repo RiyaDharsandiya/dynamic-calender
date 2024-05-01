@@ -1,0 +1,21 @@
+#sday,#stime
+{  margin-right:10px;
+    margin-bottom: 0px;
+}
+.p
+{
+    display: inline-block;
+    margin-right:100px;
+    margin-bottom: 0px;
+}
+.p1
+{
+    margin-bottom: 0px;
+}
+table
+{
+    border-collapse:collapse;
+}
+td {
+    overflow: hidden; /* or auto, scroll, etc. depending on your needs */
+  }
