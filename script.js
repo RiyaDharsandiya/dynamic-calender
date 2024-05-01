@@ -36,6 +36,7 @@ for (let i = 0; i < 25; i++) {
                     const cell = document.createElement("td");
                      //column id -24 ids
                      cell.id="row_"+i +"-col_"+j
+                     console.log(cell);
                     //cell.id="row_"+i +"-col_"+j
                     // cell.id=  //31 ids
                     row.appendChild(cell);
@@ -62,6 +63,7 @@ function tasker() {
     for (let i = start_time; i <= end_time; i++) {
         for (let j = start_day; j <= end_day; j++) {
             const cellId = "row_" + i + "-col_" + j;
+            console.log(cellId);
             const td = document.getElementById(cellId);
 
             // Create a div for each cell to hold the task name
